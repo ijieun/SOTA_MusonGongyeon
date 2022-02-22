@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#676767"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/findid_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/findid_topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="아이디 찾기"
+            android:textColor="#D2D2D2"
+            android:textSize="33sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/findid_phoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="170dp"
+        android:paddingLeft="10dp"
+        android:text="휴대폰 번호를 입력해주세요"
+        android:textColor="#D2D2D2"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/findid_input_phoneNumber"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_input"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:text="&quot;-&quot;를 제외하고 입력해주세요"
+        android:textColor="#676767" />
+
+    <Button
+        android:id="@+id/findid_btn_send"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_red_button"
+        android:paddingBottom="5dp"
+        android:text="인증번호 전송" />
+
+    <EditText
+        android:id="@+id/findid_input_confirm"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/background_input"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:text="인증번호"
+        android:textColor="#676767" />
+
+    <Button
+        android:id="@+id/findid_btn_confirm"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_red_button"
+        android:paddingBottom="5dp"
+        android:text="아이디 찾기" />
+
+</LinearLayout>
