@@ -20,8 +20,21 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // register.xml
         binding.loginSignUp.setOnClickListener{
             startActivity(Intent(this, RegisterActivity::class.java ))
+            finish()
+        }
+
+        // findid.xml
+        binding.loginFindId.setOnClickListener{
+            startActivity(Intent(this, FindIdActivity::class.java))
+            finish()
+        }
+
+        // findpw.xml
+        binding.loginFindPw.setOnClickListener{
+            startActivity(Intent(this, FindPwActivity::class.java))
             finish()
         }
 

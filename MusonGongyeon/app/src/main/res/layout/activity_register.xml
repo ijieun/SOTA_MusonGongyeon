@@ -34,6 +34,7 @@
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
         android:paddingBottom="5dp"
+        android:textColor="#676767"
         android:textColorHint="#676767" />
 
     <TextView
@@ -56,6 +57,7 @@
         android:inputType="textPersonName"
         android:paddingLeft="16dp"
         android:paddingBottom="5dp"
+        android:textColor="#676767"
         android:textColorHint="#676767" />
 
     <Button
