@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#414141">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="103dp"
+        android:layout_height="129.42dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="207dp"
+
+        android:src="@drawable/img"></ImageView>
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="232dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/rounded_corner_card">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button"
+        android:layout_centerInParent="true"
+        android:text="뮤지컬'오페라의 유령'"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/dday"
+        android:layout_width="66dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:text="D-20"
+        android:textColor="#E04A4A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_above="@id/name"
+
+
+
+        ></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="261dp"
+        android:layout_height="38.7dp"
+        android:layout_gravity="center"
+        android:text="예매 바로가기"
+        android:backgroundTint="#CB1111"
+        android:layout_centerInParent="true"></Button>
+
+</RelativeLayout>
+
