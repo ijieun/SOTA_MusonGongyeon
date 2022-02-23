@@ -23,11 +23,11 @@
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="148dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#00000000"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/back_btn" />
+            app:srcCompat="@drawable/ic_back" />
 
         <TextView
             android:id="@+id/textView"
@@ -52,7 +52,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="371dp"
         android:layout_height="656dp"
-        android:background="@drawable/back_radius"
+        android:background="@drawable/background_radius"
         android:orientation="vertical"
         android:padding="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +72,7 @@
                 android:layout_width="256dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/sample_img" />
+                app:srcCompat="@drawable/ic_phantom" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -166,7 +166,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_margin="3dp"
-                            android:background="@drawable/text_radius2"
+                            android:background="@drawable/background_input"
                             android:hint="좌석을 입력해 주세요"
                             android:textColor="#676767"
                             android:textSize="8sp" />
@@ -200,7 +200,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
                             android:layout_margin="3dp"
-                            android:background="@drawable/text_radius2"
+                            android:background="@drawable/background_input"
                             android:hint="공연장을 입력해 주세요"
                             android:textSize="8sp" />
                     </com.google.android.material.textfield.TextInputLayout>
@@ -233,7 +233,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/text_radius"
+            android:background="@drawable/background_input_text"
             android:gravity="top"
             android:hint="나의 솔직한 후기를 알려주세요"
             android:inputType="textMultiLine"
@@ -273,7 +273,7 @@
         android:layout_width="248dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
-        android:background="@drawable/btn_radius"
+        android:background="@drawable/background_red_button_radius"
         android:text="평가하기"
         android:textSize="24sp"
         app:backgroundTint="@null"

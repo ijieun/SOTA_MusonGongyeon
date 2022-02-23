@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#676767"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/login_id"
         android:layout_width="302dp"
         android:layout_height="48dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginTop="374dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/background_input"
         android:ems="10"
+        android:hint="이메일"
         android:inputType="textEmailAddress"
         android:paddingLeft="16dp"
         android:paddingBottom="5dp"
-        android:text="아이디"
-        android:textColor="#676767" />
+        android:textColor="#676767"
+        android:textColorHint="#676767" />
 
     <EditText
         android:id="@+id/login_pw"
@@ -29,7 +33,7 @@
         android:background="@drawable/background_input"
         android:ems="10"
         android:hint="영/숫자 8자리 이상"
-        android:inputType="numberPassword"
+        android:inputType="numberPassword|textWebPassword"
         android:paddingLeft="16dp"
         android:paddingBottom="5dp"
         android:textAlignment="viewStart"
@@ -82,7 +86,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="130dp"
         android:orientation="horizontal">
 
         <TextView

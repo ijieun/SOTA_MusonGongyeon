@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602390879",
+    "project_id": "musongongyeon",
+    "storage_bucket": "musongongyeon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602390879:android:419333b08f986f49ddb6ea",
+        "android_client_info": {
+          "package_name": "com.example.musongongyeon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602390879-7u7kuj7748go16dim9c7iinnq2696bjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLetDimrRct7KDTVJSolnu8SlD5FwRKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602390879-7u7kuj7748go16dim9c7iinnq2696bjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

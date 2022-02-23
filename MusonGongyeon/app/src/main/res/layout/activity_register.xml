@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/register_welcomeText"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="30dp"
+        android:text="뮤슨공연에 오신 것을 환영합니다!"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/register_emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="100dp"
+        android:text="이메일을 입력해 주세요" />
+
+    <EditText
+        android:id="@+id/register_etEmail"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_input"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="#676767" />
+
+    <TextView
+        android:id="@+id/register_pwText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:text="비밀번호를 입력해 주세요" />
+
+    <EditText
+        android:id="@+id/register_etPw"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_input"
+        android:ems="10"
+        android:hint="영/숫자 조합 8자리 이상"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="#676767" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_red_button"
+        android:paddingBottom="5dp"
+        android:text="회원가입"
+        android:textSize="16sp" />
+</LinearLayout>

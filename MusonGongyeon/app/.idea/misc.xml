@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable-v24/back_radius.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable-v24/btn_radius.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/back_radius.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/background_input_text.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/btn_radius.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/text_radius.xml" value="0.1935" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/text_radius2.xml" value="0.1935" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_findid.xml" value="0.1125" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_findpw.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/oodms/git/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_review.xml" value="0.264" />
         <entry key="..\:/msgy/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/drawable/text_radius.xml" value="0.1255" />
         <entry key="..\:/msgy/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/msgy/SOTA_MusonGongyeon/MusonGongyeon/app/src/main/res/layout/activity_review.xml" value="0.1" />
