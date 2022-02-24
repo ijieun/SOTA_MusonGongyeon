@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/linearLayout"
         android:layout_width="391dp"
         android:layout_height="65dp"
         android:orientation="horizontal"
@@ -17,35 +17,35 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/home_home"
+            android:id="@+id/home"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="35dp"
             android:background="@drawable/ic_home_select" />
 
         <Button
-            android:id="@+id/home_bell"
+            android:id="@+id/bell"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="35dp"
             android:background="@drawable/ic_bell" />
 
         <Button
-            android:id="@+id/home_people"
+            android:id="@+id/people"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="35dp"
             android:background="@drawable/ic_people" />
 
         <Button
-            android:id="@+id/home_person"
+            android:id="@+id/person"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/ic_person" />
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/home_search"
         android:layout_width="344dp"
         android:layout_height="44dp"
         android:layout_marginStart="24dp"
@@ -64,11 +64,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/home_search"
         app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/ic_home_card" />
 

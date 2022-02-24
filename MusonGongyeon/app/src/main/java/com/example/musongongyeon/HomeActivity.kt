@@ -14,13 +14,14 @@ class HomeActivity :AppCompatActivity(){
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.homeBell.setOnClickListener{
+        binding.bell.setOnClickListener{
             startActivity(Intent(this, NotificationsActivity::class.java))
             finish()
         }
 
-        binding.homePeople.setOnClickListener{
-
+        binding.people.setOnClickListener{
+            startActivity(Intent(this, ReviewActivity::class.java))
+            finish()
         }
     }
 }
