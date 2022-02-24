@@ -70,7 +70,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="35dp"
-            android:background="@drawable/ic_home_select" />
+            android:background="@drawable/ic_home" />
 
         <Button
             android:id="@+id/home_bell"
@@ -84,7 +84,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="35dp"
-            android:background="@drawable/ic_people" />
+            android:background="@drawable/ic_people_select" />
 
         <Button
             android:id="@+id/home_person"
@@ -103,6 +103,7 @@
         android:ems="10"
         android:hint="원하시는 공연을 검색해주세요"
         android:inputType="textPersonName"
+        android:paddingLeft="10dp"
         android:textColor="#676767"
         android:textColorHint="#676767"
         app:layout_constraintStart_toStartOf="parent"

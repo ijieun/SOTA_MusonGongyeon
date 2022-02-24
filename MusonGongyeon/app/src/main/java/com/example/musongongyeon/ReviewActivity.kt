@@ -1,4 +1,7 @@
 package com.example.musongongyeon
 
-class ReviewActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class ReviewActivity :AppCompatActivity() {
+
 }

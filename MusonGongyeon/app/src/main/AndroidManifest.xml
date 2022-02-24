@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
+            android:name=".ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
             android:name=".FindPwActivity"
             android:exported="false" />
-
         <activity
             android:name=".FindIdActivity"
             android:exported="false" />
@@ -25,19 +33,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".NotificationSettingActivity"
-            android:parentActivityName=".NotificationsActivity"/>
-        <activity
-            android:name=".NotificationsActivity"
-            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
