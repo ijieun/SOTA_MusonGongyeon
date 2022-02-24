@@ -22,5 +22,10 @@ class ReviewActivity :AppCompatActivity() {
             startActivity(Intent(this, NotificationsActivity::class.java))
             finish()
         }
+
+        binding.reviewPostbtn.setOnClickListener{
+            startActivity(Intent(this, ReviewEditActivity::class.java))
+            finish()
+        }
     }
 }

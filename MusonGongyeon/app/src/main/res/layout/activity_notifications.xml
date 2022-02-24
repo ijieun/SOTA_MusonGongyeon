@@ -79,7 +79,7 @@
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/url_button"
+                        android:id="@+id/review_postbtn"
                         android:layout_width="296dp"
                         android:layout_height="33dp"
                         android:layout_alignParentBottom="true"
