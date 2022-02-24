@@ -37,6 +37,16 @@
                 android:textColor="#D2D2D2"
                 android:textSize="33sp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/noti_setIconselect"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/ic_setting_select" />
         </RelativeLayout>
 
         <RelativeLayout

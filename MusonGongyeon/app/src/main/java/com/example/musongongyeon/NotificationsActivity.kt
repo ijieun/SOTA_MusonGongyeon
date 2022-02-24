@@ -27,6 +27,11 @@ class NotificationsActivity : AppCompatActivity() {
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
+
+        val setting : ImageView = findViewById(R.id.noti_setIcon)
+        setting.setOnClickListener{
+            startActivity(Intent(this, NotificationSettingActivity::class.java))
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
