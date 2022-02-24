@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MusonGongyeon</string>
+    <string name="app_name">뮤슨공연</string>
+    <string name="musical_name">뮤지컬 &lt;레베카&gt;</string>
+    <string name="start_remaining">24:00 뒤에 예매가 시작돼요</string>
+    <string name="start_datetime">2022-02-19 &#160; 14:00</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
